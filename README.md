@@ -27,23 +27,21 @@ cd Wikipedia-Search-App
 Install required dependencies: Install the necessary Python packages:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 Apply Migrations: Prepare the database (SQLite3 by default):
 ```
 
 ```bash
-Copy code
 python manage.py makemigrations
 python manage.py migrate
 ```
 Run the Server: Start the Django development server:
 
 ```bash
-Copy code
 python manage.py runserver
 ```
+
 Access the application: Open your web browser and go to http://127.0.0.1:8000 to start using the Wikipedia Search App.
 
-Contributing
+## Contributing
 If you'd like to contribute to the Wikipedia Search App, please fork the repository and submit a pull request with your changes. For bug reports or feature requests, open an issue on GitHub.
