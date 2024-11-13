@@ -28,15 +28,15 @@ Install required dependencies: Install the necessary Python packages:
 
 ```bash
 pip install -r requirements.txt
-Apply Migrations: Prepare the database (SQLite3 by default):
 ```
 
+Apply Migrations: Prepare the database (SQLite3 by default):
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-Run the Server: Start the Django development server:
 
+Run the Server: Start the Django development server:
 ```bash
 python manage.py runserver
 ```
