@@ -1,4 +1,4 @@
-# Wikipedia Search App
+# WikiCrux (Wikipedia In a Crux)
 
 A simple Django-based Wikipedia search application developed to provide quick Wikipedia article summaries. This project uses the Wikipedia API to fetch and display summaries of articles based on user search input. It served as a foundational experience in working with Django views, forms, templates, and integrating external libraries.
 
